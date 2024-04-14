@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "iran-sans";
+  src: url("/fonts/IRANSansWeb.cdb118d6.woff2") format("woff2");
+}
+.swal-footer {
+  display: flex;
+  justify-content: center;
+}
+.swal-button {
+  color: #000;
+}
